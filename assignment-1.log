@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.1.22)  4 APR 2021 23:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.1.22)  4 APR 2021 23:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -557,7 +557,7 @@ Package rerunfilecheck Info: File `assignment-1.out' has not changed.
 Here is how much of TeX's memory you used:
  11029 strings out of 481252
  159417 string characters out of 5913865
- 459422 words of memory out of 5000000
+ 459380 words of memory out of 5000000
  27792 multiletter control sequences out of 15000+600000
  431036 words of font info for 49 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -569,7 +569,7 @@ m/lmr10.pfb><c:/Users/esthe/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/publ
 ic/lm/lmr17.pfb><c:/Users/esthe/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/
 public/lm/lmro10.pfb><c:/Users/esthe/AppData/Roaming/TinyTeX/texmf-dist/fonts/t
 ype1/public/lm/lmtt10.pfb>
-Output written on assignment-1.pdf (2 pages, 124868 bytes).
+Output written on assignment-1.pdf (2 pages, 124621 bytes).
 PDF statistics:
  51 PDF objects out of 1000 (max. 8388607)
  41 compressed objects within 1 object stream

@@ -5,7 +5,7 @@ header-includes:
 - \usepackage{fancyhdr}
 - \pagestyle{fancy}
 - \fancyhead[CO,CE]{Assignment 1 - Analysis}
-- \fancyfoot[CO,CE]{https://github.com/shalinirajasekaran/test2.git}
+- \fancyfoot[CO,CE]{https://github.com/sdsd/test2.git}
 ---
 
 ```{r setup, include=FALSE}
