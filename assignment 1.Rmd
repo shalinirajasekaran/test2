@@ -10,6 +10,7 @@ header-includes:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(ggpubr)
 library(tidyverse)
 library(janitor) # janitor helps us clean datasets
 library(here) # here helps us to know where files are
@@ -18,7 +19,7 @@ library(here) # here helps us to know where files are
 ## Load data
 
 ```{r COVID-19}
-COVID19data <- readr::read_csv(file ="https://data.ontario.ca/dataset/f4112442-bdc8-45d2-be3c-12efae72fb27/resource/455fd63b-603d-4608-8216-7d8647f43350/download/conposcovidloc.csv")
+COVID19data <- readr::read_csv(file ="https://data.ontario.ca/dataset/8f3a449b-bde5-4631-ada6-8bd94dbc7d15/resource/e760480e-1f95-4634-a923-98161cfb02fa/download/region_hospital_icu_covid_data.csv")
 ```
 
 ## head
@@ -26,5 +27,20 @@ COVID19data <- readr::read_csv(file ="https://data.ontario.ca/dataset/f4112442-b
 
 ```{r pressure, echo=TRUE}
 head(COVID19data)
+```
+
+## correlation
+
+```{r}
+X = COVID19data[,"ICU_vented"]
+Y = COVID19data[,"ICU"]
+CORRELATION = cor(Y,X,method = "pearson")
+CORRELATION
+```
+
+## graph in correlation
+
+```{r}
+ggscatter(COVID19data, x = "hospitalizations", y = "ICU",add = "reg.line", conf.int = TRUE,cor.coef = TRUE, cor.method = "pearson",xlab = "hospitalizations", ylab = "ICU")
 ```
 
