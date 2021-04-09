@@ -4,26 +4,27 @@ output: pdf_document
 header-includes:
 - \usepackage{fancyhdr}
 - \pagestyle{fancy}
-- \fancyhead[CO,CE]{Assignment 1 - Analysis}
-- \fancyfoot[CO,CE]{https://github.com/sdsd/test2.git}
+- \fancyhead[CO,CE]{Group1 - Assignment R}
+- \fancyfoot[CO,CE]{https://github.com/shalinirajasekaran/Group1-RAssignment.git}
 ---
-
+## Installing packages and library
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(ggpubr)
 library(tidyverse)
 library(janitor) # janitor helps us clean datasets
 library(here) # here helps us to know where files are
+library(readxl)
 ```
 
-## Load data
+## Load data - CSV
+## This is a COVID dataset and downloaded Open data
 
 ```{r COVID-19}
 COVID19data <- readr::read_csv(file ="https://data.ontario.ca/dataset/8f3a449b-bde5-4631-ada6-8bd94dbc7d15/resource/e760480e-1f95-4634-a923-98161cfb02fa/download/region_hospital_icu_covid_data.csv")
 ```
 
 ## head
-
 
 ```{r pressure, echo=TRUE}
 head(COVID19data)
@@ -42,5 +43,21 @@ CORRELATION
 
 ```{r}
 ggscatter(COVID19data, x = "hospitalizations", y = "ICU",add = "reg.line", conf.int = TRUE,cor.coef = TRUE, cor.method = "pearson",xlab = "hospitalizations", ylab = "ICU")
+```
+
+
+## graph - bar plot hospitalisation
+```{r test}
+ggplot(data = COVID19data,aes(x = COVID19data$hospitalizations)) + geom_bar()
+```
+## barplot with date
+
+```{r}
+ggplot(data = COVID19data,aes(x = COVID19data$hospitalizations,fill = factor(COVID19data$oh_region))) + geom_bar()
+```
+
+## scatter plot
+```{r}
+ggplot(data = COVID19data,aes(x = hospitalizations,y = ICU_vented,col = factor(oh_region)))+ geom_point()
 ```
 

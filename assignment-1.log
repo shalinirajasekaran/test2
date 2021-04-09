@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.1.22)  4 APR 2021 23:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.1.22)  9 APR 2021 18:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -544,24 +544,63 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 116
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
-21.
+29.
 (c:/Users/esthe/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [1
 
 {c:/Users/esthe/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdfte
-x.map}] [2] (./assignment-1.aux)
+x.map}]
+<assignment-1_files/figure-latex/unnamed-chunk-2-1.pdf, id=50, 469.755pt x 325.
+215pt>
+File: assignment-1_files/figure-latex/unnamed-chunk-2-1.pdf Graphic file (type 
+pdf)
+<use assignment-1_files/figure-latex/unnamed-chunk-2-1.pdf>
+Package pdftex.def Info: assignment-1_files/figure-latex/unnamed-chunk-2-1.pdf 
+ used on input line 203.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+<assignment-1_files/figure-latex/test-1.pdf, id=51, 469.755pt x 325.215pt>
+File: assignment-1_files/figure-latex/test-1.pdf Graphic file (type pdf)
+<use assignment-1_files/figure-latex/test-1.pdf>
+Package pdftex.def Info: assignment-1_files/figure-latex/test-1.pdf  used on in
+put line 215.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--217
+[][]
+ []
+
+[2 <./assignment-1_files/figure-latex/unnamed-chunk-2-1.pdf>]
+<assignment-1_files/figure-latex/unnamed-chunk-3-1.pdf, id=69, 469.755pt x 325.
+215pt>
+File: assignment-1_files/figure-latex/unnamed-chunk-3-1.pdf Graphic file (type 
+pdf)
+<use assignment-1_files/figure-latex/unnamed-chunk-3-1.pdf>
+Package pdftex.def Info: assignment-1_files/figure-latex/unnamed-chunk-3-1.pdf 
+ used on input line 224.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+[3 <./assignment-1_files/figure-latex/test-1.pdf>]
+<assignment-1_files/figure-latex/unnamed-chunk-4-1.pdf, id=79, 469.755pt x 325.
+215pt>
+File: assignment-1_files/figure-latex/unnamed-chunk-4-1.pdf Graphic file (type 
+pdf)
+<use assignment-1_files/figure-latex/unnamed-chunk-4-1.pdf>
+Package pdftex.def Info: assignment-1_files/figure-latex/unnamed-chunk-4-1.pdf 
+ used on input line 235.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+[4 <./assignment-1_files/figure-latex/unnamed-chunk-3-1.pdf>] [5 <./assignment-
+1_files/figure-latex/unnamed-chunk-4-1.pdf>] (./assignment-1.aux)
 Package rerunfilecheck Info: File `assignment-1.out' has not changed.
-(rerunfilecheck)             Checksum: 21A37EC37598D62CA81CCFCAEE38293D;156.
+(rerunfilecheck)             Checksum: 42E0E851DFDAF4795E9B89AB3A76D080;1280.
  ) 
 Here is how much of TeX's memory you used:
- 11029 strings out of 481252
- 159417 string characters out of 5913865
- 459380 words of memory out of 5000000
- 27792 multiletter control sequences out of 15000+600000
+ 11081 strings out of 481252
+ 161181 string characters out of 5913865
+ 459756 words of memory out of 5000000
+ 27824 multiletter control sequences out of 15000+600000
  431036 words of font info for 49 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 71i,11n,74p,365b,469s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,11n,74p,549b,356s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Users/esthe/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.e
 nc}<c:/Users/esthe/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmb
 x12.pfb><c:/Users/esthe/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/l
@@ -569,10 +608,10 @@ m/lmr10.pfb><c:/Users/esthe/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/publ
 ic/lm/lmr17.pfb><c:/Users/esthe/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/
 public/lm/lmro10.pfb><c:/Users/esthe/AppData/Roaming/TinyTeX/texmf-dist/fonts/t
 ype1/public/lm/lmtt10.pfb>
-Output written on assignment-1.pdf (2 pages, 124621 bytes).
+Output written on assignment-1.pdf (5 pages, 310802 bytes).
 PDF statistics:
- 51 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 500000)
- 17 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 125 PDF objects out of 1000 (max. 8388607)
+ 103 compressed objects within 2 object streams
+ 22 named destinations out of 1000 (max. 500000)
+ 85 words of extra memory for PDF output out of 10000 (max. 10000000)
 
